@@ -15,7 +15,7 @@ for name in namen:
     laenge = len(name)
     print(f"  {name} – {laenge} Buchstaben", end="")
 
-    if laenge > 5:
+    if laenge > 6:
         print(" (langer Name!)")
     else:
         print(" (kurzer Name!)")
